@@ -1,0 +1,31 @@
+{
+  "name": "hello-grpc",
+  "version": "1.0.0",
+  "description": "Hello gRPC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdebarochez/hello-grpc.git"
+  },
+  "keywords": [
+    "grpc",
+    "nodejs"
+  ],
+  "author": "jdebarochez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdebarochez/hello-grpc/issues"
+  },
+  "homepage": "https://github.com/jdebarochez/hello-grpc#readme",
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "google-protobuf": "^3.6.1",
+    "grpc": "^1.15.0",
+    "grpc-web": "^1.0.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
