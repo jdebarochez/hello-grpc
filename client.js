@@ -7,6 +7,5 @@ var request = new HelloRequest();
 request.setName('World');
 
 client.sayHello(request, {}, (err, response) => {
-  console.log(err);
-  if (response) console.log(response.getMessage());
+  console.log(err || response.getMessage());
 });
