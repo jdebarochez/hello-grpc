@@ -1,4 +1,4 @@
-# Hello world using gRPC
+# Hello world using gRPC-Web
 
 Guide is here: [gRPC-Web helloworld example](https://github.com/grpc/grpc-web/tree/master/net/grpc/gateway/examples/helloworld)
 
